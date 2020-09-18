@@ -64,7 +64,6 @@ void execute_instruction(char *command, stack_t **stack, FILE *script)
 		return;
 	}
 	function = check_instruction(ins);
-    
 	if (!function)
 	{
 		if (*stack)
