@@ -49,5 +49,6 @@ void free_stack(stack_t *stack);
 void pop(stack_t **stack, unsigned int line_number);
 void execute_instruction(char *command, stack_t **stack, FILE *script);
 void check_ifInteger(char *number);
+void pint(stack_t **stack, unsigned int line_number);
 
 #endif

@@ -10,6 +10,7 @@ void (*check_instruction(char *command))(stack_t**, unsigned int)
 {
 	instruction_t instructions[] = {
 		{"pall", pall},
+		{"pint", pint},
 		{"pop", pop},
 		{"swap", swap},
 		{"nop", nop},
